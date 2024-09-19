@@ -1,0 +1,111 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; 
+    background-image: url('pict/bc.jpg'); 
+    background-size: cover;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    body {
+        background-image: url('pict/bc.jpg'); /* Ganti dengan path gambar background */
+        background-size: contain; /* Atur ukuran gambar agar sesuai dengan kontainer */
+        background-position: center; /* Posisikan gambar di tengah */
+        background-repeat: no-repeat; /* Hindari pengulangan gambar */
+    }
+    
+}
+
+h2  {
+            text-align: center;
+            color: transparent; /* Buat warna teks transparan untuk efek gradien */
+            background: linear-gradient(90deg, #3cb9cf, #5b4e17); /* Gradien warna */
+            -webkit-background-clip: text; /* Menggunakan clip untuk efek gradien pada teks */
+            background-clip: text; /* Untuk browser non-webkit */
+            margin-bottom: 20px;
+            font-size: 2.5em; /* Ukuran font yang lebih besar */
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); /* Efek bayangan */
+            font-weight: bold; /* Membuat teks lebih tebal */
+            font-family: 'times new roman', cursive; /* Ganti dengan font yang diinginkan */
+        }
+        
+h2 {
+    text-align: center;
+    color: #757c93; /* Warna yang cerah */
+    margin-bottom: 20px;
+    font-size: 2.5em; /* Ukuran font yang lebih besar */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Efek bayangan */
+    font-weight: bold; /* Membuat teks lebih tebal */
+}
+ h3 {
+    text-align: center;
+    color: #b3d7ef;
+    margin-bottom: 20px;
+    font-family: 'times new roman', cursive;
+}
+
+form {
+    background-color: rgba(204, 150, 150, 0.8); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(197, 110, 110, 0.3);
+    margin-bottom: 20px;
+    width: 100%; 
+    max-width: 400px; /* Maksimal lebar formulir */
+}
+
+.form-group {
+    display: flex; /* Menggunakan flexbox untuk baris */
+    align-items: center; /* Menyelaraskan elemen secara vertikal */
+    margin-bottom: 15px; /* Jarak antar grup */
+}
+
+label {
+    width: 100px; /* Lebar tetap untuk label */
+    margin-right: 10px; /* Jarak antara label dan input */
+    text-align: right; /* Rata kanan untuk label */
+}
+
+input, textarea {
+    flex-grow: 1; /* Membuat input dan textarea mengisi sisa ruang */
+    padding: 10px;
+    border: 1px solid #456e9c;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: none; /* Menghilangkan resize pada textarea */
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff; /* Ubah warna tombol sesuai keinginan */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    width: 100%; /* Lebar penuh untuk tombol */
+}
+
+button:hover {
+    background-color: #0056b3; /* Warna saat hover */
+}
+
+.output-row {
+    display: flex;
+    margin-bottom: 10px; /* Jarak antar baris */
+}
+
+strong {
+    width: 100px; /* Lebar tetap untuk label */
+    text-align: left; /* Rata kiri untuk label */
+}
